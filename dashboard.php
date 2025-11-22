@@ -12,4 +12,3 @@ if ($_SESSION['role'] === 'faculty') {
 }
 exit;
 
-//new
