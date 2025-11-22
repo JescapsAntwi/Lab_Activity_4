@@ -19,3 +19,5 @@ foreach ($files as $filename => $defaultData) {
         file_put_contents($filepath, json_encode($defaultData, JSON_PRETTY_PRINT));
     }
 }
+
+//new
