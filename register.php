@@ -96,3 +96,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <script src="assets/js/validation.js"></script>
 </body>
 </html>
+
+//new
