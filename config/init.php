@@ -20,4 +20,3 @@ foreach ($files as $filename => $defaultData) {
     }
 }
 
-//new
