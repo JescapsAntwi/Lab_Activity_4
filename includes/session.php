@@ -4,3 +4,5 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 require_once __DIR__ . '/../config/init.php';
+
+//new
