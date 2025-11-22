@@ -141,4 +141,3 @@ foreach ($courses as $course) {
 </body>
 </html>
 
-//new
