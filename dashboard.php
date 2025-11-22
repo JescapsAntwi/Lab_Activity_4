@@ -11,3 +11,5 @@ if ($_SESSION['role'] === 'faculty') {
     header('Location: student/dashboard.php');
 }
 exit;
+
+//new
