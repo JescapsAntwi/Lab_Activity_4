@@ -64,3 +64,5 @@ function requireRole($role) {
         exit;
     }
 }
+
+//new
