@@ -80,4 +80,3 @@ $pendingRequests = array_filter($requests, function($req) use ($myCourseIds) {
 </body>
 </html>
 
-//new
