@@ -76,7 +76,9 @@ usort($mySessions, function($a, $b) {
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <h2>Course Management System</h2>
+            <div class="nav-brand">
+                <h2>🎓 Ashesi CMS</h2>
+            </div>
             <div class="nav-links">
                 <a href="dashboard.php">Dashboard</a>
                 <a href="mark_attendance.php" class="btn btn-primary">Mark Attendance</a>

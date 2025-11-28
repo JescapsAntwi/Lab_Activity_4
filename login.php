@@ -41,6 +41,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <div class="hero-section">
+        <h1>Ashesi University</h1>
+        <p>Course Management & Attendance System</p>
+    </div>
+    
     <div class="container">
         <div class="auth-box">
             <h1>Login</h1>
@@ -64,6 +69,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </form>
             
             <p class="text-center">Don't have an account? <a href="register.php">Register here</a></p>
+        </div>
+        
+        <div class="ashesi-footer">
+            <p>Powered by Ashesi University | Excellence in Education</p>
         </div>
     </div>
 </body>

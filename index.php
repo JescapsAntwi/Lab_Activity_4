@@ -7,6 +7,6 @@ if (isLoggedIn()) {
     exit;
 }
 
-header('Location: login.php');
+header('Location: welcome.php');
 exit;
 

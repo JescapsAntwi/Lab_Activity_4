@@ -30,7 +30,9 @@ $pendingRequests = array_filter($requests, function($req) use ($myCourseIds) {
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <h2>Course Management System</h2>
+            <div class="nav-brand">
+                <h2>🎓 Ashesi CMS</h2>
+            </div>
             <div class="nav-links">
                 <span>Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?> (Faculty)</span>
                 <a href="../logout.php" class="btn btn-secondary">Logout</a>
@@ -76,6 +78,11 @@ $pendingRequests = array_filter($requests, function($req) use ($myCourseIds) {
                     </div>
                 <?php endif; ?>
             </div>
+        </div>
+        
+        <div class="ashesi-footer">
+            <p>🎓 Ashesi University Course Management System</p>
+            <p style="font-size: 0.9rem; margin-top: 5px;">Excellence in Education</p>
         </div>
     </div>
 </body>

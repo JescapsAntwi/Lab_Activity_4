@@ -73,7 +73,9 @@ foreach ($sessionAttendance as $att) {
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <h2>Course Management System</h2>
+            <div class="nav-brand">
+                <h2>🎓 Ashesi CMS</h2>
+            </div>
             <div class="nav-links">
                 <a href="dashboard.php">Dashboard</a>
                 <a href="manage_sessions.php">Sessions</a>

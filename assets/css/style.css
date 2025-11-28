@@ -34,6 +34,85 @@ body {
     align-items: center;
 }
 
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-brand img {
+    height: 50px;
+    width: auto;
+}
+
+.nav-brand h2 {
+    margin: 0;
+    color: #00bcd4;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.nav-brand h2:hover {
+    color: #00acc1;
+    transition: color 0.3s;
+}
+
+/* Hero Section with Ashesi Background */
+.hero-section {
+    background: linear-gradient(rgba(0, 188, 212, 0.85), rgba(0, 96, 100, 0.85)), 
+                url('../images/ashesi_image.jpeg') center/cover;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+/* Ashesi Branding */
+.ashesi-footer {
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+    border-top: 3px solid #00bcd4;
+    background: linear-gradient(to bottom, rgba(0, 188, 212, 0.05), transparent);
+    color: #666;
+}
+
+.ashesi-footer p {
+    margin: 5px 0;
+}
+
+.ashesi-footer img {
+    height: 40px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.ashesi-footer img:hover {
+    opacity: 1;
+}
+
+.ashesi-logo-small {
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
 .nav-links {
     display: flex;
     gap: 1rem;
