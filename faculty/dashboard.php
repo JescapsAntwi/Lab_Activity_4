@@ -56,6 +56,7 @@ $pendingRequests = array_filter($requests, function($req) use ($myCourseIds) {
             <div class="actions">
                 <a href="create_course.php" class="btn btn-primary">Create New Course</a>
                 <a href="manage_requests.php" class="btn btn-secondary">Manage Requests</a>
+                <a href="manage_sessions.php" class="btn btn-primary">Manage Sessions</a>
             </div>
             
             <div class="section">

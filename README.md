@@ -15,12 +15,20 @@ A PHP-based course management system with role-based access control for Faculty 
 - View all created courses
 - Manage student requests to join courses
 - Approve or reject enrollment requests
+- Create and manage class sessions
+- Generate unique attendance codes for each session
+- View attendance reports and statistics
+- Open/close attendance sessions
 
 ### Student Features
 - Browse available courses
 - Request to join courses
 - View enrolled courses
 - Track request status (pending/approved/rejected)
+- Mark attendance using session codes
+- View personal attendance records
+- Track attendance percentage per course
+- View daily and overall attendance reports
 
 ### Security
 - Password hashing with bcrypt
@@ -53,7 +61,9 @@ A PHP-based course management system with role-based access control for Faculty 
 │   ├── users.json
 │   ├── courses.json
 │   ├── requests.json
-│   └── enrollments.json
+│   ├── enrollments.json
+│   ├── sessions.json
+│   └── attendance.json
 ├── assets/
 │   ├── css/
 │   │   └── style.css
@@ -62,11 +72,15 @@ A PHP-based course management system with role-based access control for Faculty 
 ├── faculty/
 │   ├── dashboard.php
 │   ├── create_course.php
-│   └── manage_requests.php
+│   ├── manage_requests.php
+│   ├── manage_sessions.php
+│   └── view_attendance.php
 ├── student/
 │   ├── dashboard.php
 │   ├── browse_courses.php
-│   └── my_courses.php
+│   ├── my_courses.php
+│   ├── mark_attendance.php
+│   └── view_attendance.php
 ├── index.php
 ├── register.php
 ├── login.php
@@ -96,7 +110,24 @@ A PHP-based course management system with role-based access control for Faculty 
 1. Browse available courses
 2. Request to join courses
 3. View enrolled courses and request status
-4. Access course materials once approved
+4. Mark attendance using codes provided by faculty
+5. View attendance records and statistics
+
+### Attendance Management
+**Faculty:**
+1. Navigate to "Manage Sessions" from dashboard
+2. Create a new session by selecting course, date, and time
+3. System generates a unique 6-digit code
+4. Share the code with students during class
+5. View real-time attendance as students mark
+6. Close session when class ends
+7. View detailed attendance reports
+
+**Students:**
+1. Navigate to "Mark Attendance" from dashboard
+2. Enter the 6-digit code provided by faculty
+3. System validates enrollment and marks attendance
+4. View attendance history and statistics in "View Attendance"
 
 ## Data Storage
 
@@ -105,6 +136,8 @@ This system uses JSON files for data persistence:
 - `courses.json` - Course information
 - `requests.json` - Enrollment requests
 - `enrollments.json` - Approved enrollments
+- `sessions.json` - Class sessions with attendance codes
+- `attendance.json` - Student attendance records
 
 ## Technologies Used
 

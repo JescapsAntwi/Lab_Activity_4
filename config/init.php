@@ -10,7 +10,9 @@ $files = [
     'users.json' => [],
     'courses.json' => [],
     'requests.json' => [],
-    'enrollments.json' => []
+    'enrollments.json' => [],
+    'sessions.json' => [],
+    'attendance.json' => []
 ];
 
 foreach ($files as $filename => $defaultData) {

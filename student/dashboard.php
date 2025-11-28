@@ -61,6 +61,8 @@ $myRequests = array_filter($requests, function($req) {
             <div class="actions">
                 <a href="browse_courses.php" class="btn btn-primary">Browse Courses</a>
                 <a href="my_courses.php" class="btn btn-secondary">My Courses</a>
+                <a href="mark_attendance.php" class="btn btn-primary">Mark Attendance</a>
+                <a href="view_attendance.php" class="btn btn-secondary">View Attendance</a>
             </div>
             
             <div class="section">

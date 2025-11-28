@@ -328,6 +328,36 @@ body {
     flex: 1;
 }
 
+/* Attendance specific styles */
+.session-info {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border-left: 4px solid #00bcd4;
+}
+
+.session-info h2 {
+    color: #00bcd4;
+    margin-bottom: 15px;
+}
+
+.session-info p {
+    margin: 8px 0;
+    color: #000;
+}
+
+.attendance-stats {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 2px solid #e0e0e0;
+}
+
+.attendance-stats p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .nav-container {
@@ -341,5 +371,13 @@ body {
     
     .course-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .actions {
+        flex-direction: column;
+    }
+    
+    .actions .btn {
+        width: 100%;
     }
 }
